@@ -2,7 +2,7 @@ module.exports = {
    context: __dirname + '/app',//上下文
    entry: './index.js',//入口文件
    output: {//输出文件
-     path: __dirname + '/app',
+     path: __dirname + '/app/bin',
      filename: './bundle.js'
    },
    module: {

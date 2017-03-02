@@ -33894,6 +33894,7 @@ module.exports = "data:image/jpeg;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHV
 /* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
+var angular = __webpack_require__(5);//引入angular
 var ngModule = angular.module('app',[]);//定义一个angular模块
 __webpack_require__(4)(ngModule);//引入指令(directive)文件
 __webpack_require__(8);//引入样式文件
@@ -33903,7 +33904,7 @@ __webpack_require__(11);
 __webpack_require__(10);
 __webpack_require__(7);
 
-var angular = __webpack_require__(5);//引入angular
+
 
 
 /***/ })
